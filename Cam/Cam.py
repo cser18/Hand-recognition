@@ -1,6 +1,7 @@
 import cv2
 
-import numpy as np#添加模块和矩阵模块
+#添加模块和矩阵模块
+import numpy as np
 
 cap=cv2.VideoCapture(0)
 # 打开摄像头，若打开本地视频，同opencv一样，只需将０换成("×××.avi")
