@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1788dcd0-4f1f-4577-88f3-bfe8472aa30c" name="Default Changelist" comment="" />
+    <list default="true" id="1788dcd0-4f1f-4577-88f3-bfe8472aa30c" name="Default Changelist" comment="PYCHARM">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cam.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="280">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -139,17 +141,26 @@
       <workItem from="1553252353325" duration="6865000" />
       <workItem from="1553262506137" duration="940000" />
       <workItem from="1553301905031" duration="324000" />
+      <workItem from="1553302263054" duration="95000" />
     </task>
+    <task id="LOCAL-00001" summary="PYCHARM">
+      <created>1553302323956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553302323956</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16063000" />
+    <option name="totallyTimeSpent" value="16158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16554959" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16756032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -175,6 +186,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PYCHARM" />
+    <option name="LAST_COMMIT_MESSAGE" value="PYCHARM" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.jpg" />
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1022328829/cv2/cv2/__init__.py">
@@ -186,8 +201,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="280">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
