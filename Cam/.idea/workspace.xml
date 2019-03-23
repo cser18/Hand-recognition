@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1788dcd0-4f1f-4577-88f3-bfe8472aa30c" name="Default Changelist" comment="PYCHARM">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1788dcd0-4f1f-4577-88f3-bfe8472aa30c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Cam$Cam.coverage" NAME="Cam Coverage Results" MODIFIED="1553301944537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Cam$Cam.coverage" NAME="Cam Coverage Results" MODIFIED="1553328200711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -19,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/Cam.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <caret line="19" column="62" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="62" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -64,6 +62,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,7 +74,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,6 +140,7 @@
       <workItem from="1553262506137" duration="940000" />
       <workItem from="1553301905031" duration="324000" />
       <workItem from="1553302263054" duration="95000" />
+      <workItem from="1553324860168" duration="3542000" />
     </task>
     <task id="LOCAL-00001" summary="PYCHARM">
       <created>1553302323956</created>
@@ -150,23 +149,30 @@
       <option name="project" value="LOCAL" />
       <updated>1553302323956</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="加入双边滤波">
+      <created>1553328402309</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553328402309</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16158000" />
+    <option name="totallyTimeSpent" value="19700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16756032" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16957104" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33002833" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33002833" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -188,7 +194,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PYCHARM" />
-    <option name="LAST_COMMIT_MESSAGE" value="PYCHARM" />
+    <MESSAGE value="加入双边滤波" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入双边滤波" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.jpg" />
@@ -199,18 +206,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-21533862/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="8022" column="24" selection-start-line="8022" selection-start-column="24" selection-end-line="8022" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Cam.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <caret line="19" column="62" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="62" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
