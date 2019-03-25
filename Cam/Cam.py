@@ -21,6 +21,15 @@ while(1):    # get a frame
     frame_data = np.array(frame)
     [fH,fW,fN] = frame_data.shape
     frame_data = frame_data[H - 200 : H - 80, W - 250:W - 150]
+    ### 博客上的对图像处理的步骤
+    minValue = 70
+    gray = cv2.cvtColor(frame_data, cv2.COLOR_BGR2GRAY)
+    blur = cv2.GaussianBlur(gray, (5,5),2)
+    th3 = cv2.adaptiveThreshold(blur, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 11, 2)  # 阈值处理
+    ret, bRes = cv2.threshold(th3, minValue, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
+    ###########################
+
+
     tframe = frame_data
     # 加入高斯背景消除法
     frame_mark = fgbg.apply(frame_data)
@@ -44,6 +53,15 @@ while(1):    # get a frame
                 H[i,j] = 255
             else:
                 H[i,j] = 0
+
+    # 将H通道进行转换#########################
+    # 发现 正要H通道获得的信息槽点小 所获得的图片的效果可以作为深度学习的喂入图片
+    minValue = 70
+    # hgray = cv2.cvtColor(H, cv2.COLOR_BGR2GRAY)
+    hblur = cv2.GaussianBlur(H, (5, 5), 2)
+    hth3 = cv2.adaptiveThreshold(hblur, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 11, 2)  # 阈值处理
+    ret, hbRes = cv2.threshold(hth3, minValue, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
+    ###########################################################
     res = cv2.morphologyEx(H, cv2.MORPH_OPEN, kernel)     # 形态学开运算去噪点
     im, contours, hierarchy = cv2.findContours(H, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     # print(contours)
@@ -61,11 +79,15 @@ while(1):    # get a frame
     cv2.imshow("res",res)
     cv2.imshow("gaosi",frame_mark)
     cv2.imshow("getTarget",tframe)
+    cv2.imshow("boke", bRes)
+    cv2.imshow("hboke",hbRes)
     cv2.resizeWindow("H", 200, 200)
     cv2.resizeWindow("target", 200, 200)
     cv2.resizeWindow("res",200,200)
     cv2.resizeWindow("gaosi",200,200)
     cv2.resizeWindow("getTarget",200,200)
+    cv2.resizeWindow("boke",200, 200)
+    cv2.resizeWindow("hboke",200,200)
     key = cv2.waitKey(1) & 0xFF
     if  key == ord('q'):
         break
