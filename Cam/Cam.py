@@ -49,7 +49,7 @@ while(1):    # get a frame
             hVal = H[i,j]
             sVal = S[i,j]
             vVal = V[i,j]
-            if  hVal <= 35 and hVal >= 0 and sVal > 48 and vVal > 50:
+            if  hVal <= 29 and hVal >= 7 and sVal > 46  and vVal > 50:
                 H[i,j] = 255
             else:
                 H[i,j] = 0
