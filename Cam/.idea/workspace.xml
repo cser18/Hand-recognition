@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1788dcd0-4f1f-4577-88f3-bfe8472aa30c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandReg.py" beforeDir="false" afterPath="$PROJECT_DIR$/HandReg.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HandReg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="196">
+              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -78,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="955" />
     <option name="width" value="970" />
     <option name="height" value="1035" />
@@ -226,6 +225,7 @@
       <workItem from="1558875169888" duration="196000" />
       <workItem from="1558875691259" duration="3727000" />
       <workItem from="1558945036547" duration="111000" />
+      <workItem from="1559043715094" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="PYCHARM">
       <created>1553302323956</created>
@@ -262,14 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553769180681</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="使用Ycrcb效果最好">
+      <created>1559043752778</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559043752778</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57929000" />
+    <option name="totallyTimeSpent" value="57975000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1544" height="832" extended-state="6" />
+    <frame x="764" y="0" width="776" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.35131398" />
@@ -304,7 +311,8 @@
     <MESSAGE value="加入高斯混合模型为基础的背景/前景分割算法" />
     <MESSAGE value="参考其他人博客对图片处理的步骤" />
     <MESSAGE value="手势识别" />
-    <option name="LAST_COMMIT_MESSAGE" value="手势识别" />
+    <MESSAGE value="使用Ycrcb效果最好" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用Ycrcb效果最好" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.jpg" />
@@ -345,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HandReg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="196">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
